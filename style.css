@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.entrance {
+  display: flex;
+  flex-direction: column;
+
+}
+body {
+  background-color: #fefae0;
+}
+#saveButton {
+  width: 90px;
+  margin-top: 10px;
+  background-color: #d4a373;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 15px;
+  padding: 5px 15px;
+  font-size: 15px;
+  color: white;
+  margin-bottom: 10px;
+}
+button:hover {
+  transform: scale(1.05);
+}
+.entrance > input {
+  margin-top: 10px;
+  padding: 5px 15px;
+  border: 1px solid #d4a373;
+  border-radius: 15px;
+  width: 40%;
+}
+.list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+th {
+  border: 1px solid #d4a373;
+  padding: 10px 0;
+}
+.list > input {
+  width: 40%;
+  margin-bottom: 10px;
+  padding: 5px 15px;
+  border: 1px solid #d4a373;
+  border-radius: 15px;
+}
+tr {
+  font-size: 20px;
+  text-align: center;
+}
+
+table tr,table{
+  width: 100%;
+}
+.remove {
+  width: 50px;
+  margin-left: 20px;
+  background-color: #d4a373;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 15px;
+  padding: 5px 15px;
+  font-size: 15px;
+  color: white;
+  margin-bottom: 10px;
+}
